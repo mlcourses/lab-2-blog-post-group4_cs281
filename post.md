@@ -73,6 +73,7 @@ During the lab, we followed our wiring diagram above. There were an few niches t
 
 ## Testing
 We tested the circuit out in the following videos. Instead of intuitively thinking about what each result would make, we followed the truth table we created and tested the outputs with different A, B and Cin inputs. This ensured that we actually had the correct results. The following video shows and explains the testing:
+
 https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/67582698/cb97a5b2-4a8c-4f9e-b440-eaa1f1194366
 
 ## Conclusion
