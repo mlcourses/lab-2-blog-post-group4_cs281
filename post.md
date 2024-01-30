@@ -41,8 +41,6 @@ PART 2: 4-1 MULTIPLEXOR
 
 PART 3: 4-1 MULTIPLEXOR WITH ARDUINO
 
-PART 4: 1 BIT ADDER
-
 ## Conclusion
 
   In today's lab, we built our skills of designing and implementing circuits, specifically learning the intricacies of multiplexors and adders. We learned how to use Sum-of-Products to go from truth tables to boolean expressions, to theoretical circuit designs, and then to physical circuits on our breadboard. Our major takeaways are as follows: 
@@ -54,6 +52,7 @@ PART 4: 1 BIT ADDER
 
 //---------------------------------------------
 
+## PART 4: 1 BIT ADDER
 ## Goal
 The goal of this part is to build a cascade adder on the breadboard. A cascade adder is one that accepts 3 inputs, 2 1-bit binary number (A and B) and a "carry on" variable (Cin) and outputs the result (C) as well as any "carry on" (Cout) that overflows the adder (which can only display 2 bits). 
 
