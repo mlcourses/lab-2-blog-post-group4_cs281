@@ -28,7 +28,7 @@ PART 4: 1 BIT ADDER
 
 PART 1: 2-1 MULTIPLEXOR
 
-We tested our 2-1 mux by toggling our selector switch: S1, and our two data switches: S5 and S6, and then by looking at the output displayed on the Logic Indicators of our breadboard. If we select want to output data input A, for example, we set S1 to low, and then toggle S5 as desired. See the video below for operation of this circuit. Comparing our outputs to our truth table for a 2-1 mux, we can confirm that our circuit is functioning correctly. 
+  We tested our 2-1 mux by toggling our selector switch: S1, and our two data switches: S5 and S6, and then by looking at the output displayed on the Logic Indicators of our breadboard. If we select want to output data input A, for example, we set S1 to low, and then toggle S5 as desired. See the video below for operation of this circuit. Comparing our outputs to our truth table for a 2-1 mux, we can confirm that our circuit is functioning correctly. 
 
 PART 2: 4-1 MULTIPLEXOR
 
@@ -37,6 +37,8 @@ PART 3: 4-1 MULTIPLEXOR WITH ARDUINO
 PART 4: 1 BIT ADDER
 
 ## Conclusion
+
+  In today's lab, we built our skills of designing and implementing circuits, specifically learning the intricacies of multiplexors and adders. We learned how to use Sum-of-Products design to 
 
 
 
