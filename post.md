@@ -73,8 +73,7 @@ During the lab, we followed our wiring diagram above. There were an few niches t
 
 ## Testing
 We tested the circuit out in the following videos. Instead of intuitively thinking about what each result would make, we followed the truth table we created and tested the outputs with different A, B and Cin inputs. This ensured that we actually had the correct results. The following video shows and explains the testing:
-
-## Videos of Adder Testing
+https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/67582698/cb97a5b2-4a8c-4f9e-b440-eaa1f1194366
 
 ## Conclusion
 After finishing part 3, we learnt how to build a somewhat complex circuit that could output 2 variables. We also learnt how to combine 2 separate circuits together to make 1 and intuitively realized how to get multiple signals from one logic switch. This part also required a lot of "the result of this gate goes into the input as another gate" and being able to build this circuit helped us to intuitively understand more about circuit building in general.
