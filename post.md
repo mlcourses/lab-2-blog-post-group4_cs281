@@ -40,6 +40,9 @@ PART 2: 4-1 MULTIPLEXOR
 
 PART 3: 4-1 MULTIPLEXOR WITH ARDUINO
 
+![4-1 mux with arduino](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/122911760/62e628fd-a5b7-43b3-94f1-a57cc87ff0fd)
+
+
 PART 4: 1 BIT ADDER
 
 ## Conclusion
