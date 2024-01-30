@@ -1,4 +1,4 @@
-# Lab X: Doing stuff with hardware!
+# Lab 2: Building a 2-1 Mux, 4-1 Mux and a Cascade Adder
 
 ## Overview and Motivation
   This week we began to build functional multiplexors and adders using the logic gates we were introduced to last week. We designed and built a 2-1 mux, a 4-1 mux - which we automatically tested with our Arduino, and a 1 bit adder. Through these exercises, we saw real-world application of the logic gates, circuits, and truth tables which we have been studying in class.
