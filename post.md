@@ -18,6 +18,9 @@ PART 1: 2-1 MULTIPLEXOR
 
   In the prelab for this lab, we designed a 2-1 multiplexor circuit using a NOT gate, 2 AND gates, and an OR gate. A 2-1 multiplexor takes two binary data inputs, and one binary selector input, and it allows a user to select which of the two data inputs will be passed through to the output. We took the truth table for this circuit, which had our desired outputs given the three input variables, and used Sum-Of-Products design to find the boolean expression for the mux. This boolean expression is Y = A~S + BS. From this expression, we designed our circuit, which is pictured below. In part 1 of the lab, we implemented our design on the breadboard. 
 
+![2-1 mux](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/122911760/c4931388-ec7f-46b2-a49d-eba6b3520ddb)
+
+
 PART 2: 4-1 MULTIPLEXOR
 
 PART 3: 4-1 MULTIPLEXOR WITH ARDUINO
