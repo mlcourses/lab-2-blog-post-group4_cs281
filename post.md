@@ -41,15 +41,6 @@ PART 2: 4-1 MULTIPLEXOR
 
 PART 3: 4-1 MULTIPLEXOR WITH ARDUINO
 
-## Conclusion
-
-  In today's lab, we built our skills of designing and implementing circuits, specifically learning the intricacies of multiplexors and adders. We learned how to use Sum-of-Products to go from truth tables to boolean expressions, to theoretical circuit designs, and then to physical circuits on our breadboard. Our major takeaways are as follows: 
-1. 
-
-
-
-
-
 //---------------------------------------------
 
 ## PART 4: 1 BIT ADDER
@@ -87,5 +78,8 @@ We tested the circuit out in the following videos. Instead of intuitively thinki
 ## Conclusion
 After finishing part 3, we learnt how to build a somewhat complex circuit that could output 2 variables. We also learnt how to combine 2 separate circuits together to make 1 and intuitively realized how to get multiple signals from one logic switch. This part also required a lot of "the result of this gate goes into the input as another gate" and being able to build this circuit helped us to intuitively understand more about circuit building in general.
 
+## Conclusion for the Lab
 
+In today's lab, we built our skills of designing and implementing circuits, specifically learning the intricacies of multiplexors and adders. We learned how to use Sum-of-Products to go from truth tables to boolean expressions, to theoretical circuit designs, and then to physical circuits on our breadboard. Our major takeaways are as follows: 
+1. 
 
