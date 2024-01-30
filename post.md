@@ -55,24 +55,21 @@ For example, if 01 (A) and 01 (B) are inserted into the adder with no carry on (
 
 ## Procedures
 From the example above, we were able to make a truth table of the possible values of A, B and Cin and then mapped these to the results of C and Cout. This resulted in the following table.
-
-## Image of Adder Truth Table
+![IMG_C646DC305C09-1](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/67582698/b80024d9-0865-4a9e-b77e-dee7584174b3)
 
 Implementing SOP design onto the table, we wrote out the equation for a circuit that would result in C and another function that would result in Cout. We simplified it until we got the following equations:
-
-## Image of C and Cin final equations
+![IMG_D4BAF3B9113C-1](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/67582698/e5c96602-901f-45b8-a353-f8ec64e248bf)
+![IMG_A87ED35FDFD4-1](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/67582698/0350bd28-9204-45d1-9df3-fee995484d89)
 
 From these equations, we were able to construct two circuits, one for C and one for Cin. We then drew these circuits on Logisim to test and see whether toggling A, B and Cin will result in the same results for C and Cout as displayed in the table.
+<img width="530" alt="Untitled 2" src="https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/67582698/d50a2fab-8945-42b2-a6b1-8c12c7e8d37c">
 
-## Image of C and Cin Logisim circuit
 
 After seeing that everything is correct, we combined the two circuits into one (because we only want one circuit on the breadboard). We also drew the circuit now with the diagrams of the logic gates we were going to use so we knew how to wire the logic gates. For example, the two circuits required a combination of 3 AND gates in the Logisim diagram but only one 7408 AND gate. This is because the 7408 gate actually has places for 8 inputs and 4 outputs. Thus, this step is very important as it is borderline impossible to build a circuit from the Logisim diagram above. We ended up with the wiring diagram below:
-
-## Image of Complete Wiring Diagram
+![IMG_4D81DD273393-1](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/67582698/813e4205-056e-46d3-9f04-e55643230005)
 
 During the lab, we followed our wiring diagram above. There were an few niches though. We couldn't plug multiple plugs coming out of one logic switch, so what we settled on doing was connecting the logic switch to 1 row of the breadboard, and because the 5-column section of the breadboard is connected by rows, all the other slots in that row will have the same power as the logic switch. This meant we could have 5 wires coming out of each logic switch and we only needed 3. An example of this could be seen on the left side of the top left AND logic gate. We ended up with the circuit below.
-
-## Image of Complete Adder Circuit
+![adder breadboard circuit](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/67582698/68cf7d65-4425-44d4-aef8-715a0543186e)
 
 ## Testing
 We tested the circuit out in the following videos. Instead of intuitively thinking about what each result would make, we followed the truth table we created and tested the outputs with different A, B and Cin inputs. This ensured that we actually had the correct results. The following video shows and explains the testing:
