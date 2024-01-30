@@ -38,7 +38,8 @@ PART 4: 1 BIT ADDER
 
 ## Conclusion
 
-  In today's lab, we built our skills of designing and implementing circuits, specifically learning the intricacies of multiplexors and adders. We learned how to use Sum-of-Products design to 
+  In today's lab, we built our skills of designing and implementing circuits, specifically learning the intricacies of multiplexors and adders. We learned how to use Sum-of-Products to go from truth tables to boolean expressions, to theoretical circuit designs, and then to physical circuits on our breadboard. Our major takeaways are as follows: 
+1. 
 
 
 
