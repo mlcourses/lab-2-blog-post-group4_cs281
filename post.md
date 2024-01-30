@@ -37,7 +37,11 @@ PART 1: 2-1 MULTIPLEXOR
 
   We tested our 2-1 mux by toggling our selector switch: S1, and our two data switches: S5 and S6, and then by looking at the output displayed on the Logic Indicators of our breadboard. If we select want to output data input A, for example, we set S1 to low, and then toggle S5 as desired. See the video below for operation of this circuit. Comparing our outputs to our truth table for a 2-1 mux, we can confirm that our circuit is functioning correctly. 
 
+https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/122911760/e120a063-6a55-4464-a16d-56aff027e2be
+
 PART 2: 4-1 MULTIPLEXOR
+
+https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/122911760/b3973261-fa25-4b01-86e0-f43193b3bc2e
 
 PART 3: 4-1 MULTIPLEXOR WITH ARDUINO
 
