@@ -8,6 +8,13 @@ This is just an example of how you might structure your blog post, feel free to 
 This week we'll explore...
 
 ## Materials
+1. PB-503 (breadboard)
+2. Electrical Wires
+3. Arduino Kit
+4. 7404 NOT Gate
+5. 7408 AND Gate
+6. 7486 XOR Gate
+7. 74150 16-1 Multiplexor
 
 ## Project Steps
 
