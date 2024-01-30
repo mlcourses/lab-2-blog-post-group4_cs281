@@ -1,9 +1,5 @@
 # Lab X: Doing stuff with hardware!
 
-Please write a blog post describing your lab here.
-
-This is just an example of how you might structure your blog post, feel free to edit as you wish. For example, you might divide the lab into different sections each with their own intro, instructions, results, and takeaways. Please see the rubric for details on how the post will be evaluated.
-
 ## Overview and Motivation
 This week we began to build functional multiplexors and adders using the logic gates we were introduced to last week. We designed and built a 2-1 mux, a 4-1 mux - which we automatically tested with our Arduino, and a 1 bit adder. Through these exercises, we saw real-world application of the logic gates, circuits, and truth tables which we have been studying in class.
 
