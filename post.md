@@ -14,33 +14,33 @@
 
 ## Project Steps
 
-PART 1: 2-1 MULTIPLEXOR
+#### PART 1: 2-1 MULTIPLEXOR
 
   In the prelab for this lab, we designed a 2-1 multiplexor circuit using a NOT gate, 2 AND gates, and an OR gate. A 2-1 multiplexor takes two binary data inputs, and one binary selector input, and it allows a user to select which of the two data inputs will be passed through to the output. We took the truth table for this circuit, which had our desired outputs given the three input variables, and used Sum-Of-Products design to find the boolean expression for the mux. This boolean expression is Y = A~S + BS. From this expression, we designed our circuit, which is pictured below. In part 1 of the lab, we implemented our design on the breadboard. 
 
 ![2-1 mux](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/122911760/c4931388-ec7f-46b2-a49d-eba6b3520ddb)
 
 
-PART 2: 4-1 MULTIPLEXOR
+#### PART 2: 4-1 MULTIPLEXOR
 
-  In this experiment, we used a 74150 and a not-gate chip. In the prelab for this experiment, we made a wiring diagram for this IC. It takes 4 data inputs and 2 selector inputs. We had the truth table for this circuit. Then we found the boolean expression for the mux which is C = Cin xor(A xor B) and Cout=Cin A+Cin B+AB. From this expression, we designed our circuit, which is pictured below. In part 1 of the lab, we implemented our design on the breadboard. 
-
+  In this experiment, we used a 74150 16-1 multiplexor and a not-gate chip. In the prelab for this experiment, we made a wiring diagram for this IC. It takes 4 data inputs and 2 selector inputs. We had the truth table for this circuit. Then we found the boolean expression for the mux which is C = Cin xor(A xor B) and Cout=Cin A+Cin B+AB. From this expression, we designed our circuit, which is pictured below.
+  
 ![4-1 mux](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/122911760/46da525f-e531-4190-be3d-6eb435282c94)
 
-PART 3: 4-1 MULTIPLEXOR WITH ARDUINO
+#### PART 3: 4-1 MULTIPLEXOR WITH ARDUINO
 
-  In this experiment, we keep the circuit we built in the last experiment but remove the wires to the switches and reconnect them to the Arduino board. We used the Arduino program from the lab instructions. The provided Arduino program is designed to test the operation of a 4-to-1 multiplexer (mux) using an Arduino board. The mux is controlled by the Arduino, which sets the data inputs, selects lines, reads the output from the mux, and compares it to the expected results.
+  In this part of the lab, we kept the circuit we built in the last experiment but removed the wires to the switches and reconnected them to the Arduino board. The provided Arduino program from the lab instruction is designed to test the operation of a 4-to-1 multiplexer (mux) using an Arduino board, setting the two selectors (S0 and S1) to a certain value and seeing if they match with the intended value in the array. However, the results were wrong and we had to go through S0 and S1, see what the intended output was supposed to be and then fix the selector arrays so they would match the output. This is a picture of the arduino setup. The picture and explanation for our completed code will be in the "Testing" section.
 
 ![4-1 mux with arduino](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/122911760/62e628fd-a5b7-43b3-94f1-a57cc87ff0fd)
 
-PART 4: 1 BIT ADDER
+#### PART 4: 1 BIT ADDER
 
-## Goal
+##### Goal
 The goal of this part is to build a cascade adder on the breadboard. A cascade adder is one that accepts 3 inputs, 2 1-bit binary number (A and B) and a "carry on" variable (Cin) and outputs the result (C) as well as any "carry on" (Cout) that overflows the adder (which can only display 2 bits). 
 
 For example, if 01 (A) and 01 (B) are inserted into the adder with no carry on (Cin = 0), the result (C) would be 10 and the resultant carry on (Cout) would be 0. On the other hand, if 11 and 11 is inserted into the adder with no carry on (Cin = 0), the result if 11 + 11 will be 110. In this case, (C) would be 10 and the resultant carry on (Cout) would be 1.
 
-## Procedures
+##### Procedures
 From the example above, we were able to make a truth table of the possible values of A, B and Cin and then mapped these to the results of C and Cout. This resulted in the following table.
 ![IMG_C646DC305C09-1](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/67582698/b80024d9-0865-4a9e-b77e-dee7584174b3)
 
@@ -58,30 +58,33 @@ After seeing that everything is correct, we combined the two circuits into one (
 During the lab, we followed our wiring diagram above. There were an few niches though. We couldn't plug multiple plugs coming out of one logic switch, so what we settled on doing was connecting the logic switch to 1 row of the breadboard, and because the 5-column section of the breadboard is connected by rows, all the other slots in that row will have the same power as the logic switch. This meant we could have 5 wires coming out of each logic switch and we only needed 3. An example of this could be seen on the left side of the top left AND logic gate. We ended up with the circuit below.
 ![adder breadboard circuit](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/67582698/68cf7d65-4425-44d4-aef8-715a0543186e)
 
-## Conclusion
-After finishing part 3, we learnt how to build a somewhat complex circuit that could output 2 variables. We also learnt how to combine 2 separate circuits together to make 1 and intuitively realized how to get multiple signals from one logic switch. This part also required a lot of "the result of this gate goes into the input as another gate" and being able to build this circuit helped us to intuitively understand more about circuit building in general.
+##### Conclusion
+After finishing part 4, we learnt how to build a somewhat complex circuit that could output 2 variables. We also learnt how to combine 2 separate circuits together to make 1 and intuitively realized how to get multiple signals from one logic switch. This part also required a lot of "the result of this gate goes into the input as another gate" and being able to build this circuit helped us to intuitively understand more about circuit building in general.
 
 ## Testing
 
-PART 1: 2-1 MULTIPLEXOR
+#### PART 1: 2-1 MULTIPLEXOR
 
   We tested our 2-1 mux by toggling our selector switch: S1, and our two data switches: S5 and S6, and then by looking at the output displayed on the Logic Indicators of our breadboard. If we select want to output data input A, for example, we set S1 to low, and then toggle S5 as desired. See the video below for operation of this circuit. Comparing our outputs to our truth table for a 2-1 mux, we can confirm that our circuit is functioning correctly. 
 
 https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/122911760/e120a063-6a55-4464-a16d-56aff027e2be
 
-PART 2: 4-1 MULTIPLEXOR
+#### PART 2: 4-1 MULTIPLEXOR
 
-  We tested our 4-1 mux by toggling our selector switch: S1 and S2, and our four data switches: S5, S6, S7, and S8. Then we check the output displayed on the Logic Indicators of our breadboard. Please check the video below about the operation of this circuit. We compare the outputs to our truth table written in the prelab, and we can get the result that our circuit is built correctly.
+We tested our 4-1 mux by toggling our selector switch: S1 and S2, and our four data switches: S5, S6, S7, and S8. Then we checked the output displayed on the Logic Indicators of our breadboard. Please check the video below about the operation of this circuit. We compared the outputs to our truth table written in the prelab to check that our circuit is built correctly.
 
 https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/122911760/b3973261-fa25-4b01-86e0-f43193b3bc2e
 
-PART 3: 4-1 MULTIPLEXOR WITH ARDUINO
+#### PART 3: 4-1 MULTIPLEXOR WITH ARDUINO
 
-  We connect the wires from the circuit to the Arduino board shown in the video and picture below. Then we try to run the Arduino program. By running this program on the Arduino and opening the Serial Monitor, we can observe the results of each test case to verify the correct operation of the mux and your circuit. If the output matches the expected output, it will display "OK"; otherwise, it will display "BAD." This program automates the testing process and helps ensure the proper functioning of your 4-to-1 mux circuit. At last, we get all outputs "OK" which means it's giving the expected outputs.
+  We connect the wires from the circuit to the Arduino board shown in the video and picture below. Then we try to run the Arduino program. By running this program on the Arduino and opening the Serial Monitor, we can observe the results of each test case to verify the correct operation of the mux and your circuit. What the code shown below does is sleetc the output signal from either A, B, C or D based on the selection of S0 and S1 and then compare it with the expected output (array Y). If the output matches the expected output, it will display "OK"; otherwise, it will display "BAD." This program automates the testing process and helps ensure the proper functioning of your 4-to-1 mux circuit, though because the program was wrong, we had to fix S0 and S1 so the circuit output matches the expected output. This was what the correct code looked like.
 
-PART 4: 1 BIT ADDER
+![arduino code](https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/67582698/7213a266-9dd5-4e7b-8bf1-0b886f440472)
 
-  We tested the circuit out in the following videos. Instead of intuitively thinking about what each result would make, we followed the truth table we created and tested the outputs with different A, B and Cin inputs. This ensured that we actually had the correct results. The following video shows and explains the testing:
+
+#### PART 4: 1 BIT ADDER
+
+We tested the circuit out in the following videos. Instead of intuitively thinking about what each result would make, we followed the truth table we created and tested the outputs with different A, B and Cin inputs. This ensured that we actually had the correct results. The following video shows and explains the testing:
 
 https://github.com/mlcourses/lab-2-blog-post-group4_cs281/assets/67582698/cb97a5b2-4a8c-4f9e-b440-eaa1f1194366
 
